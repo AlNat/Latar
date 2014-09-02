@@ -10,4 +10,4 @@ Alexander Natarov (AlNat) - CTO
 
 Andrey Frolov (BigFut) - programmer
 
-Elizaveta Shulga () - designer
+Elizaveta Shulga (Schultiz) - designer
