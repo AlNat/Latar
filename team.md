@@ -9,5 +9,3 @@ Alexsey Moldovanov (magistr4815) - designer && PR
 Alexander Natarov (AlNat) - CTO && CIO
 
 Andrey Frolov (BigFut) - programmer
-
-Elizaveta Shulga (Schultiz) - designer && team-manager
