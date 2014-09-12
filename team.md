@@ -1,4 +1,4 @@
-Vitaly Borodin (DKrus) - programmer && cancer
+Vitaly Borodin (DKrus) - programmer 
 
 Nakita Larionov (MaestroCard) - COO && CVO
 
