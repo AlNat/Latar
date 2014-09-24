@@ -1,11 +1,11 @@
-Vitaly Borodin (DKrus) - programmer 
+**Vitaly Borodin** (*DKrus*) - ***Programmer***
 
-Nikita Larionov (MaestroCard) - COO && CVO
+**Nikita Larionov** (*MaestroCard*) - ***COO && CVO***
 
-Alexander Melnikov (SanchezM14) - programmer
+**Alexander Melnikov** (*SanchezM14*) - ***Programmer***
 
-Alexsey Moldovanov (magistr4815) - designer && PR
+**Alexsey Moldovanov** (*magistr4815*) - ***Designer && PR***
 
-Alexander Natarov (AlNat) - CTO && CIO
+**Alexander Natarov** (*AlNat*) - ***CTO && CIO***
 
-Andrey Frolov (BigFut) - programmer
+**Andrey Frolov** (*BigFut*) - ***Programmer***
