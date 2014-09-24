@@ -1,6 +1,6 @@
 Vitaly Borodin (DKrus) - programmer 
 
-Nakita Larionov (MaestroCard) - COO && CVO
+Nikita Larionov (MaestroCard) - COO && CVO
 
 Alexander Melnikov (SanchezM14) - programmer
 
