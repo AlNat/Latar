@@ -4,7 +4,7 @@
 
 **Alexander Melnikov**  (*SanchezM14*) - ***Programmer***
 
-**Alexsey Moldovanov**  (*magistr4815*) - ***Designer*** && ***PR***
+**Alexsey Moldavanov**  (*magistr4815*) - ***Designer*** && ***PR***
 
 **Alexander Natarov**  (*AlNat*) - ***CTO*** && ***CIO***
 
