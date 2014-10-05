@@ -1,4 +1,4 @@
-**Vitaly Borodin**  (*DKrus*) - ***Programmer***
+**Vitaly Borodin**  (*DKrus*) - ***Programmer*** Penalty 1/3
 
 **Nikita Larionov**  (*MaestroCard*) - ***COO*** && ***CVO***
 
@@ -8,4 +8,4 @@
 
 **Alexander Natarov**  (*AlNat*) - ***CTO*** && ***CIO***
 
-**Andrey Frolov**  (*BigFut*) - ***Programmer***
+**Andrey Frolov**  (*BigFut*) - ***Programmer*** Penalty 1/3
