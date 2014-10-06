@@ -8,7 +8,7 @@
 
 **Alexander Natarov**  (*AlNat*) - ***CTO*** && ***CIO***
 
-**Andrey Frolov**  (*BigFut*) - ***Programmer*** Penalty 1/3
+**Andrey Frolov**  (*BigFut*) - ***Programmer*** Very Strict Penalty 1.5/3
 
 Liza Shulga - FIRED
 
