@@ -8,7 +8,7 @@
 
 **Alexander Natarov**  (*AlNat*) - ***CTO*** && ***CIO***
 
-**Damnatio memoriae**
+**Frolov** - ***Damnatio memoriae***
 
 **Liza Shulga** - ***Aquae et ignis interdictio***
 
