@@ -8,8 +8,8 @@
 
 **Alexander Natarov**  (*AlNat*) - ***CTO*** && ***CIO***
 
-**Andrey Frolov**  (*BigFut*) - ***Programmer*** *Very Strict Penalty 1.5/3*
+**Damnatio memoriae**
 
-**Liza Shulga** - ***FIRED***
+**Liza Shulga** - ***Aquae et ignis interdictio***
 
 ###IF YOU HAVE MORE THEN 3 PENALTY YOU ARE FIRED!###
