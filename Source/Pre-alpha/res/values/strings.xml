@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Привет!</string>
+    <string name="app_name">Список покупок</string>
+    <string name="no_todos">В данный момент нет запланированных покупок</string>
+    <string name="menu_insert">Добавить покупку</string>
+    <string name="menu_delete">Удалить покупку</string>
+    <string name="todo_summary">Название</string>
+    <string name="todo_description">Удалить</string>
+    <string name="todo_edit_summary">Название</string>
+    <string name="todo_edit_description">Описание</string>
+    <string name="todo_edit_confirm">Подтвердить</string>
+
+    <color name="listcolor">#FFE87C</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
