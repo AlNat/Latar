@@ -2,7 +2,7 @@
 
 **Nikita Larionov**  (*MaestroCard*) - ***COO*** && ***CVO***
  
-**Alexander Melnikov**  (*SanchezM14*) - ***Programmer***   0.5/3 PENALTY прсорочка дедлайна.
+**Alexander Melnikov**  (*SanchezM14*) - ***Programmer***   0.5/3 PENALTY просрочка ***дедлайна***.
 
 **Alexsey Moldavanov**  (*magistr4815*) - ***Designer*** && ***PR***
 
