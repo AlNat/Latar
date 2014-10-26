@@ -1,0 +1,99 @@
+package com.dk.shoppinglist.database;
+
+import android.content.ContentValues;
+import android.content.Context;
+import android.database.Cursor;
+import android.database.SQLException;
+import android.database.sqlite.SQLiteDatabase;
+ 
+public class ListDbAdapter {
+ 
+    // поля базы данных
+    public static final String KEY_ROWID = "_id";
+    public static final String KEY_CATEGORY = "category";
+    public static final String KEY_SUMMARY = "summary";
+    public static final String KEY_PRICE = "price";
+    public static final String KEY_DESCRIPTION = "description";
+    private static final String DATABASE_TABLE = "list";
+    private Context context;
+    private SQLiteDatabase database;
+    private ListDatabaseHelper dbHelper;
+ 
+    public ListDbAdapter(Context context) {
+        this.context = context;
+    }
+ 
+    public ListDbAdapter open() throws SQLException {
+        dbHelper = new ListDatabaseHelper(context);
+        database = dbHelper.getWritableDatabase();
+        return this;
+    }
+ 
+    public void close() {
+        dbHelper.close();
+    }
+ 
+    /**
+     * создать новый элемент списка дел. если создан успешно - возвращается номер строки rowId
+     * иначе -1
+     */
+    public long createList(String category, String summary, String description, String price) {
+        ContentValues initialValues = createContentValues(category, summary,
+                description, price);
+ 
+        return database.insert(DATABASE_TABLE, null, initialValues);
+    }
+ 
+    /**
+     * обновить список
+     */
+    public boolean updateList(long rowId, String category, String summary,
+            String description, String price) {
+        ContentValues updateValues = createContentValues(category, summary,
+                description, price);
+ 
+        return database.update(DATABASE_TABLE, updateValues, KEY_ROWID + "="
+                + rowId, null) > 0;
+    }
+ 
+    /**
+     * удаляет элемент списка
+     */
+    public boolean deleteList(long rowId) {
+        return database.delete(DATABASE_TABLE, KEY_ROWID + "=" + rowId, null) > 0;
+    }
+ 
+    /**
+     * возвращает курсор со всеми элементами списка дел
+     *
+     * @return курсор с результатами всех записей
+     */
+    public Cursor fetchAllList() {
+        return database.query(DATABASE_TABLE, new String[] { KEY_ROWID,
+                KEY_CATEGORY, KEY_SUMMARY, KEY_DESCRIPTION, KEY_PRICE }, null, null, null,
+                null, null, null);
+    }
+ 
+    /**
+     * возвращает курсор, спозиционированный на указанной записи
+     */
+    public Cursor fetchList(long rowId) throws SQLException {
+        Cursor mCursor = database.query(true, DATABASE_TABLE, new String[] {
+                KEY_ROWID, KEY_CATEGORY, KEY_SUMMARY, KEY_DESCRIPTION, KEY_PRICE },
+                KEY_ROWID + "=" + rowId, null, null, null, null, null);
+        if (mCursor != null) {
+            mCursor.moveToFirst();
+        }
+        return mCursor;
+    }
+ 
+    private ContentValues createContentValues(String category, String summary,
+            String description, String price) {
+        ContentValues values = new ContentValues();
+        values.put(KEY_CATEGORY, category);
+        values.put(KEY_SUMMARY, summary);
+        values.put(KEY_DESCRIPTION, description);
+        values.put(KEY_PRICE, price);
+        return values;
+    }
+}
