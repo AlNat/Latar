@@ -102,8 +102,8 @@ public class ListOverview extends ListActivity {
         cursor = dbHelper.fetchAllList();
         startManagingCursor(cursor);
  
-        String[] from = new String[] { ListDbAdapter.KEY_SUMMARY, ListDbAdapter.KEY_PRICE };
-        int[] to = new int[] { R.id.label, R.id.price  };
+        String[] from = new String[] { ListDbAdapter.KEY_SUMMARY, ListDbAdapter.KEY_PRICE, ListDbAdapter.KEY_DESCRIPTION };
+        int[] to = new int[] { R.id.label, R.id.price, R.id.amount  };
         // “еперь создадим адаптер массива и установим его дл€ отображени€ наших данных
         SimpleCursorAdapter notes = new SimpleCursorAdapter(this,
                 R.layout.list_row, cursor, from, to);
