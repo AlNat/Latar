@@ -1,3 +1,6 @@
+Legal roles & Penalty
+=====================
+
 **Vitaly Borodin**  (*DKrus*) - ***Programmer***
 
 **Nikita Larionov**  (*MaestroCard*) - ***COO*** && ***CVO***
@@ -8,8 +11,23 @@
 
 **Alexander Natarov**  (*AlNat*) - ***CTO*** && ***CIO***
 
-**Frolov** - ***Damnatio memoriae***
-
-**Liza Shulga** - ***Aquae et ignis interdictio***
-
 ###IF YOU HAVE MORE THEN 3 PENALTY YOU ARE FIRED!###
+
+---------------------------------------------------------------------------------------------------------------
+
+SCRUM Roles
+===========
+
+Ancillary roles:
+
+**Nikita Larionov**  (*MaestroCard*) - ***Manager***
+ 
+Core roles:
+
+**Alexander Natarov**  (*AlNat*) - ***Scrum Master***
+
+**Vitaly Borodin**  (*DKrus*) - ***Scrum Team***
+
+**Alexander Melnikov**  (*SanchezM14*) - ***Scrum Team***
+
+**Alexsey Moldavanov**  (*magistr4815*) - ***Scrum Team***
