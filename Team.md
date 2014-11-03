@@ -1,13 +1,13 @@
 Legal roles & Penalty
 =====================
 
-**Vitaly Borodin**  (*DKrus*) - ***Programmer***
+**Vitaly Borodin**  (*DKrus*) - ***Programmer*** 2.0/3 Penalty
 
-**Nikita Larionov**  (*MaestroCard*) - ***COO*** && ***CVO***
+**Nikita Larionov**  (*MaestroCard*) - ***COO*** && ***CVO*** 
  
-**Alexander Melnikov**  (*SanchezM14*) - ***Programmer***   0.5/3 PENALTY просрочка ***дедлайна***.
+**Alexander Melnikov**  (*SanchezM14*) - ***Programmer***   2.5/3 Penalty просрочка ***дедлайна***.
 
-**Alexsey Moldavanov**  (*magistr4815*) - ***Designer*** && ***PR***
+**Alexsey Moldavanov**  (*magistr4815*) - ***Designer*** && ***PR*** 2.0/3 Penalty
 
 **Alexander Natarov**  (*AlNat*) - ***CTO*** && ***CIO***
 
