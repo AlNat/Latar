@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="4px"
+        android:layout_marginRight="4px"
+        android:layout_marginTop="8px"
+        android:layout_toLeftOf="@+id/amount"
+        android:layout_toRightOf="@+id/icon"
+        android:text="@+id/label"
+        android:textColor="@color/black"
+        android:textSize="40px" >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/price"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="4px"
+        android:layout_marginTop="8px"
+        android:text="@+id/Price01"
+        android:textColor="@color/black"
+        android:textSize="40px" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="30px"
+        android:layout_height="40px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/reminder" />
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/label"
+        android:layout_alignBottom="@+id/price"
+        android:layout_toLeftOf="@+id/price"
+        android:text="@+id/amount"
+        android:textSize="40px" />
+
+</RelativeLayout>
