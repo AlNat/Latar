@@ -15,6 +15,7 @@
     <color name="listcolor">#FFE87C</color>
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
+    <color name="sky_blue">#87CEEB</color>
 
     <string name="title_activity_list_details">MainActivity</string>
     <string name="hello_world">Hello world!</string>

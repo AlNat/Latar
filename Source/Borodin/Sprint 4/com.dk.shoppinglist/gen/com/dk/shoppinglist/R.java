@@ -16,6 +16,7 @@ public final class R {
     public static final class color {
         public static final int black=0x7f070001;
         public static final int listcolor=0x7f070000;
+        public static final int sky_blue=0x7f070003;
         public static final int white=0x7f070002;
     }
     public static final class dimen {
@@ -33,6 +34,7 @@ public final class R {
         public static final int button_normal3=0x7f020000;
         public static final int ic_launcher=0x7f020001;
         public static final int reminder=0x7f020002;
+        public static final int rounded=0x7f020003;
     }
     public static final class id {
         public static final int Price01=0x7f0a0013;
