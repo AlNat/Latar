@@ -12,6 +12,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView.AdapterContextMenuInfo;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 import android.view.View.OnClickListener;
@@ -23,10 +24,10 @@ public class ListOverview extends ListActivity implements OnClickListener{
     private static final int ACTIVITY_EDIT = 1;
     private static final int DELETE_ID = Menu.FIRST + 1;
     private Cursor cursor;
-    Button btnActTwo;
-    Button arhiv1;
-    Button newsp;
-    Button nastr;
+    ImageButton btnActTwo;
+    ImageButton arhiv1;
+    ImageButton newsp;
+    ImageButton nastr;
     Button add;
  
     /** Called when the activity is first created. */
@@ -40,13 +41,13 @@ public class ListOverview extends ListActivity implements OnClickListener{
         dbHelper.open();
         fillData();
         registerForContextMenu(getListView());
-        btnActTwo = (Button) findViewById(R.id.btnActTwo);
+        btnActTwo = (ImageButton) findViewById(R.id.btnActTwo);
         btnActTwo.setOnClickListener(this);
-        arhiv1 = (Button) findViewById(R.id.arhiv1);
+        arhiv1 = (ImageButton) findViewById(R.id.arhiv1);
         arhiv1.setOnClickListener(this);
-        newsp = (Button) findViewById(R.id.newsp);
+        newsp = (ImageButton) findViewById(R.id.newsp);
         newsp.setOnClickListener(this);
-        nastr = (Button) findViewById(R.id.nastr);
+        nastr = (ImageButton) findViewById(R.id.nastr);
         nastr.setOnClickListener(this);
         add = (Button) findViewById(R.id.add);
         add.setOnClickListener(this);

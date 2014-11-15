@@ -31,16 +31,22 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int button_normal3=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
-        public static final int reminder=0x7f020002;
-        public static final int rounded=0x7f020003;
+        public static final int add=0x7f020000;
+        public static final int button_normal3=0x7f020001;
+        public static final int ic_launcher=0x7f020002;
+        public static final int itog=0x7f020003;
+        public static final int knopka1=0x7f020004;
+        public static final int knopka2=0x7f020005;
+        public static final int knopka3=0x7f020006;
+        public static final int knopka4=0x7f020007;
+        public static final int ooo=0x7f020008;
+        public static final int reminder=0x7f020009;
     }
     public static final class id {
         public static final int Price01=0x7f0a0013;
-        public static final int RelativeLayout1=0x7f0a0009;
+        public static final int RelativeLayout1=0x7f0a0003;
         public static final int action_settings=0x7f0a001a;
-        public static final int add=0x7f0a0008;
+        public static final int add=0x7f0a0009;
         public static final int amount=0x7f0a0010;
         public static final int arhiv1=0x7f0a0005;
         public static final int btnActTwo=0x7f0a0006;
@@ -49,10 +55,10 @@ public final class R {
         public static final int editTextDialogUserInput=0x7f0a0019;
         public static final int editTextResult=0x7f0a0002;
         public static final int icon=0x7f0a0011;
+        public static final int imageView1=0x7f0a0008;
         public static final int insert=0x7f0a001b;
         public static final int label=0x7f0a000f;
         public static final int layout_root=0x7f0a0017;
-        public static final int linearLayout1=0x7f0a0003;
         public static final int list_edit_button=0x7f0a000e;
         public static final int list_edit_description=0x7f0a000d;
         public static final int list_edit_price=0x7f0a000c;
