@@ -28,7 +28,7 @@ public class ListOverview extends ListActivity implements OnClickListener{
     ImageButton arhiv1;
     ImageButton newsp;
     ImageButton nastr;
-    Button add;
+    ImageButton add;
  
     /** Called when the activity is first created. */
     @Override
@@ -49,11 +49,11 @@ public class ListOverview extends ListActivity implements OnClickListener{
         newsp.setOnClickListener(this);
         nastr = (ImageButton) findViewById(R.id.nastr);
         nastr.setOnClickListener(this);
-        add = (Button) findViewById(R.id.add);
+        add = (ImageButton) findViewById(R.id.add);
         add.setOnClickListener(this);
     }
  /*
-    // Создаем меню, основанное на XML-файле
+    // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ XML-пїЅпїЅпїЅпїЅпїЅ
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
@@ -61,7 +61,7 @@ public class ListOverview extends ListActivity implements OnClickListener{
         return true;
     }
    */
-    // Реакция на выбор меню
+    // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
     @Override
     public boolean onMenuItemSelected(int featureId, MenuItem item) {
         switch (item.getItemId()) {
@@ -105,7 +105,7 @@ public class ListOverview extends ListActivity implements OnClickListener{
         super.onListItemClick(l, v, position, id);
         Intent i = new Intent(this, ListDetails.class);
         i.putExtra(ListDbAdapter.KEY_ROWID, id);
-        // активити вернет результат если будет вызвано с помощью этого метода
+        // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
         startActivityForResult(i, ACTIVITY_EDIT);
     }
  
@@ -123,7 +123,7 @@ public class ListOverview extends ListActivity implements OnClickListener{
  
         String[] from = new String[] { ListDbAdapter.KEY_SUMMARY, ListDbAdapter.KEY_PRICE, ListDbAdapter.KEY_DESCRIPTION };
         int[] to = new int[] { R.id.label, R.id.price, R.id.amount  };
-        // Теперь создадим адаптер массива и установим его для отображения наших данных
+        // пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
         SimpleCursorAdapter notes = new SimpleCursorAdapter(this,
                 R.layout.list_row, cursor, from, to);
         setListAdapter(notes);

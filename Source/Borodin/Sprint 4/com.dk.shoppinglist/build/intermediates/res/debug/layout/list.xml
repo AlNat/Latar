@@ -12,23 +12,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/white"
-        android:layout_margin="4dp">
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp">
     </ListView>
-
-    <Button
-        android:id="@+id/add"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_below="@android:id/list"
-        android:background="@drawable/add"
-        android:layout_marginRight="2dp" />
 
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:weightSum="1">
+        android:weightSum="1"
+        android:layout_marginTop="400dp">
 
         <ImageButton
             android:layout_width="wrap_content"
@@ -81,5 +76,42 @@
         android:background="@drawable/ooo"
         android:layout_above="@+id/itog"
         android:layout_marginLeft="1dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Наименование"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@android:id/list"
+        android:layout_marginLeft="44dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Количество"
+        android:id="@+id/textView3"
+        android:layout_marginRight="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/textView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Стоимость"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/add" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add"
+        android:background="@drawable/add"
+        android:layout_alignParentRight="true"
+        android:layout_below="@android:id/list" />
 
 </RelativeLayout><!-- From: file:/C:/Users/DK/workspace/com.dk.shoppinglist/res/layout/list.xml -->
