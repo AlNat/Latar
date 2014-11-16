@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/Users/DK/workspace/com.dk.shoppinglist/res/values/priority.xml -->
+    <eat-comment />
+
+    <string-array name="priorities">
+        <item>Срочные</item>
+        <item>Постоянные</item>
+    </string-array>
+    <!-- From: file:/C:/Users/DK/workspace/com.dk.shoppinglist/res/values/strings.xml -->
+    <eat-comment />
+
+    <color name="black">#000000</color>
+    <color name="listcolor">#FFE87C</color>
+    <color name="sky_blue">#87CEEB</color>
+    <color name="white">#FFFFFF</color>
+    <!-- From: file:/C:/Users/DK/workspace/com.dk.shoppinglist/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/Users/DK/workspace/com.dk.shoppinglist/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Список покупок</string>
+    <string name="hello">Привет!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="list_description">Удалить</string>
+    <string name="list_edit_confirm">Подтвердить</string>
+    <string name="list_edit_description">Описание</string>
+    <string name="list_edit_summary">Название</string>
+    <string name="list_summary">Название</string>
+    <string name="menu_delete">Удалить покупку</string>
+    <string name="menu_insert">Добавить покупку</string>
+    <string name="no_list">В данный момент нет запланированных покупок</string>
+    <string name="title_activity_arhiv">Arhiv</string>
+    <string name="title_activity_list_details">MainActivity</string>
+    <string name="title_activity_nas">Nas</string>
+    <string name="title_activity_stat">Stat</string>
+    <!-- From: file:/C:/Users/DK/workspace/com.dk.shoppinglist/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>

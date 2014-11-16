@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="C:\Users\DK\workspace\com.dk.shoppinglist\res" >
+            <file
+                name="button_normal3"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\drawable-hdpi\button_normal3.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="reminder"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\drawable-hdpi\reminder.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="reminder"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\drawable-mdpi\reminder.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="reminder"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\drawable-xhdpi\reminder.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\drawable-xxhdpi\ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="reminder"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\drawable-xxhdpi\reminder.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="arhiv"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\layout\arhiv.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dialog"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\layout\dialog.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\layout\list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_details"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\layout\list_details.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_edit"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\layout\list_edit.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_overview"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\layout\list_overview.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_row"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\layout\list_row.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="nas"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\layout\nas.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="promts"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\layout\promts.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="stat"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\layout\stat.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="arhiv"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\menu\arhiv.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="listmenu"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\menu\listmenu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="list_details"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\menu\list_details.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="list_overview"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\menu\list_overview.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="nas"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\menu\nas.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="stat"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\menu\stat.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\values\priority.xml"
+                qualifiers="" >
+                <string-array name="priorities" >
+                    <item>
+Срочные
+                    </item>
+                    <item>
+Постоянные
+                    </item>
+                </string-array>
+            </file>
+            <file
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\values\strings.xml"
+                qualifiers="" >
+                <string name="hello" >Привет!
+                </string>
+                <string name="title_activity_list_details" >MainActivity
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="no_list" >В данный момент нет запланированных покупок
+                </string>
+                <string name="action_settings" >Settings
+                </string>
+                <string name="app_name" >Список покупок
+                </string>
+                <string name="list_summary" >Название
+                </string>
+
+                <color name="black" >#000000
+                </color>
+
+                <string name="list_edit_summary" >Название
+                </string>
+                <string name="title_activity_stat" >Stat
+                </string>
+                <string name="title_activity_nas" >Nas
+                </string>
+                <string name="title_activity_arhiv" >Arhiv
+                </string>
+                <string name="list_description" >Удалить
+                </string>
+                <string name="menu_insert" >Добавить покупку
+                </string>
+                <string name="menu_delete" >Удалить покупку
+                </string>
+                <string name="list_edit_description" >Описание
+                </string>
+
+                <color name="listcolor" >#FFE87C
+                </color>
+                <color name="sky_blue" >#87CEEB
+                </color>
+
+                <string name="list_edit_confirm" >Подтвердить
+                </string>
+
+                <color name="white" >#FFFFFF
+                </color>
+            </file>
+            <file
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\values\styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+            </file>
+            <file
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\values-v11\styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\values-v14\styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\values-w820dp\dimens.xml"
+                qualifiers="w820dp-v13" >
+                <dimen name="activity_horizontal_margin" >64dp
+                </dimen>
+            </file>
+            <file
+                name="knopka3"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\drawable-xhdpi\knopka3.jpg"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ooo"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\drawable-xhdpi\ooo.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="itog"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\drawable-xhdpi\itog.jpg"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="knopka2"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\drawable-xhdpi\knopka2.jpg"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="add"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\drawable-xhdpi\add.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="knopka4"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\drawable-xhdpi\knopka4.jpg"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="knopka1"
+                path="C:\Users\DK\workspace\com.dk.shoppinglist\res\drawable-xhdpi\knopka1.jpg"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+        </source>
+        <source path="C:\Users\DK\workspace\com.dk.shoppinglist\build\generated\res\rs\debug" />
+        <source path="C:\Users\DK\workspace\com.dk.shoppinglist\build\generated\res\generated\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\DK\workspace\com.dk.shoppinglist\build-types\debug\res" />
+    </dataSet>
+
+</merger>
