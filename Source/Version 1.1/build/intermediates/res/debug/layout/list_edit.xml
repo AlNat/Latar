@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:entries="@array/priorities" >
+
+    </Spinner>
+
+    <EditText
+        android:id="@+id/list_edit_summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/category"
+        android:layout_weight="1"
+        android:hint="Название" 
+        android:ems="10">
+       <requestFocus />
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/list_edit_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/list_edit_summary"
+        android:hint="Стоимость"
+        android:inputType="numberDecimal"
+        android:autoText="false">
+
+        
+    </EditText>
+
+    <EditText
+        android:id="@+id/list_edit_description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/list_edit_price"
+        android:gravity="top"
+        android:hint="Количество"
+        android:inputType="numberDecimal">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/list_edit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="true"
+        android:hint="Подтвердить"
+        android:text="@string/list_edit_confirm" >
+
+    </Button>
+
+</RelativeLayout><!-- From: file:/C:/Users/DK/workspace/com.dk.shoppinglist/res/layout/list_edit.xml -->
